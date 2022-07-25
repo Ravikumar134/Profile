@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Helvetica, sans-serif;
+
+}
+
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li,
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    background-image: url(images/box.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.circular_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 18px solid rgba(5, 57, 113, 0.993);
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 250px;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+.circular_image img {
+    width: 100%;
+}
+
+.container1 {
+    width: 60%;
+}
+
+.container2 {
+    width: 40%;
+    float: right;
+    margin-top: -450px;
+}
+
+.name h1 {
+    margin-top: 130px;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.name h4 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.name p {
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.button1 {
+    background-color: hsl(0, 0%, 0%);
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.button1 p {
+    color: aqua;
+    font-size: 15px;
+}
+
+.button2 {
+    background-color: hsl(0, 0%, 0%);
+    padding: 12px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.button2 p {
+    color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon {
+    font-size: 40px;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+.fa {
+    padding: 15px;
+}
+
+.fa-instagram {
+    color: rgb(255, 19, 184);
+}
+
+.fa-whatsapp {
+    color: rgb(0, 255, 34);
+}
+
+.fa-facebook {
+    color: rgb(0, 17, 255);
+}
+
+@media screen and (max-width:480px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Poppins, Helvetica, sans-serif;
+    }
+
+
+    .header {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    li,
+    a {
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .container {
+        background-image: url(images/box.png);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+
+    .circular_image {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 9px solid rgba(5, 57, 113, 0.993);
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-bottom: -60px;
+        animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    .circular_image img {
+        width: 100%;
+    }
+
+    .container1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2 {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+
+    }
+
+    .name h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    .name h4 {
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .name p {
+        width: 100%;
+        display: flex;
+        color: rgb(255, 255, 255);
+    }
+
+    .button {
+        margin-top: 30px;
+        position: relative;
+        justify-content: center;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    .button1 {
+        background-color: hsl(0, 0%, 0%);
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .button1 p {
+        color: aqua;
+        font-size: 10px;
+    }
+
+    .button2 {
+        background-color: hsl(0, 0%, 0%);
+        padding: 10px;
+        border-radius: 50px;
+        margin-left: 10px;
+    }
+
+    .button2 p {
+        color: aqua;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .container3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .icon {
+        margin-top: 40px;
+        padding: 10px;
+        font-size: 40px;
+        animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    .fa {
+        padding: 20px;
+    }
+
+    .fa-instagram {
+        color: rgb(255, 19, 184);
+    }
+
+    .fa-whatsapp {
+        color: rgb(0, 255, 34);
+    }
+
+    .fa-facebook {
+        color: rgb(0, 17, 255);
+    }
+
+}
